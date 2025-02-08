@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: hsl(0, 0%, 8%);
+  --foreground: hsl(0, 0%, 100%);
+  --green: hsl(75, 94%, 57%);
+  --muted: hsl(0, 0%, 20%);
+  --accent: hsl(0, 0%, 12%);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: hsl(0, 0%, 8%);
+    --foreground: hsl(0, 0%, 100%);
+    --green: hsl(75, 94%, 57%);
+    --muted: hsl(0, 0%, 20%);
+    --accent: hsl(0, 0%, 12%);
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
