@@ -3,19 +3,40 @@
 @tailwind utilities;
 
 :root {
-  --background: hsl(0, 0%, 8%);
-  --foreground: hsl(0, 0%, 100%);
-  --green: hsl(75, 94%, 57%);
-  --muted: hsl(0, 0%, 20%);
-  --accent: hsl(0, 0%, 12%);
+	--background: hsl(0, 0%, 8%);
+	--foreground: hsl(0, 0%, 100%);
+	--green: hsl(75, 94%, 57%);
+	--muted: hsl(0, 0%, 20%);
+	--accent: hsl(0, 0%, 12%);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: hsl(0, 0%, 8%);
-    --foreground: hsl(0, 0%, 100%);
-    --green: hsl(75, 94%, 57%);
-    --muted: hsl(0, 0%, 20%);
-    --accent: hsl(0, 0%, 12%);
-  }
+	:root {
+		--background: hsl(0, 0%, 8%);
+		--foreground: hsl(0, 0%, 100%);
+		--green: hsl(75, 94%, 57%);
+		--muted: hsl(0, 0%, 20%);
+		--accent: hsl(0, 0%, 12%);
+	}
+}
+
+@layer base {
+	:root {
+		--card: #1f1f1f;
+		--card-foreground: hsl(0, 0%, 100%);
+		--radius: 0.5rem;
+	}
+	.dark {
+		--background: hsl(0, 0%, 8%);
+		--foreground: hsl(0, 0%, 100%);
+		--card: hsl(0, 0%, 20%);
+		--card-foreground: hsl(0, 0%, 100%);
+	}
+}
+
+@layer base {
+	body {
+		@apply bg-background text-foreground;
+		background-color: var(--background);
+	}
 }
