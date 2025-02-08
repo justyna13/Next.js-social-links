@@ -27,9 +27,10 @@ export default function SocialLinkButton({ type, url, customLabel }: TProps) {
 	}
 	return (
 		<Link href={url}>
-			<Button className="mb-4 w-full rounded-lg bg-muted py-4 capitalize">
+			<Button className="mb-4 w-full rounded-lg bg-muted py-4 capitalize transition-colors hover:bg-[hsl(75,94%,30%)]">
 				{icon ?? ''} {customLabel ?? type}
 			</Button>
 		</Link>
+
 	);
 }
