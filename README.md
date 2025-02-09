@@ -8,4 +8,5 @@ The challenge is inspired by Frontend Mentor https://www.frontendmentor.io/chall
 It's a simple component for social links profile written in Next.js
 
 ## Demo
-[Check project demo](https://next-js-social-links.vercel.app/)
+
+<a href="https://next-js-social-links.vercel.app/" target="_blank">https://next-js-social-links.vercel.app/</a>
