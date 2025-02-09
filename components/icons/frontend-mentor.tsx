@@ -6,6 +6,7 @@ const FrontendMentor = (props: SVGProps<SVGSVGElement>) => (
 		height="14.154"
 		xmlns="http://www.w3.org/2000/svg"
 		viewBox="0 0 16 14.154"
+		{...props}
 	>
 		<g fill-rule="nonzero" fill="none">
 			<path

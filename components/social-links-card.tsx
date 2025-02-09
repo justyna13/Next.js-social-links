@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
 import { TUser } from '@/types/user';
-import { Button } from '@/components/ui/button';
 import {
 	Card,
 	CardContent,
