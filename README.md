@@ -9,3 +9,4 @@ It's a simple component for social links profile written in Next.js
 
 ## Demo
 
+https://next-js-social-links.vercel.app/
