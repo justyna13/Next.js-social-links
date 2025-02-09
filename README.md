@@ -9,4 +9,3 @@ It's a simple component for social links profile written in Next.js
 
 ## Demo
 
-deploy todo
